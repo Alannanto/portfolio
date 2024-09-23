@@ -1,0 +1,118 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Source Code Pro", monospace;
+    box-sizing: border-box;
+    }
+    #container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left:100px;
+
+    }
+    .logo{
+        width: 130px;
+        margin-top: 30px;
+         }
+    .list-items{
+            list-style-type: none;
+            display: inline;
+            margin: 0px 20px;
+         }
+         .list{
+            color: black;
+            font-weight: 600;
+            text-decoration: none;
+         }
+         .list:hover{
+            color: red;
+            text-decoration:underline;
+         }
+         .home-contnt{
+            margin: 13% 0px 8%;
+
+         }
+         #username{
+            font-size: 50px;
+            margin-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+         }
+         #lname{
+            font-family: Arial, Helvetica, sans-serif;
+            color: yellowgreen;
+         }      
+         #download{
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin-top:20px ;
+            display: inline-block;
+            border-radius: 30px;
+
+         }   
+         .home{
+            width: 45%;
+            height: 75%;
+            position: 0px;
+            bottom: 30px;
+            right: 30px;
+         }
+         .grp{
+            position: absolute;
+            height: 100%;
+            bottom: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+         }
+         .home-img:hover #shape{
+          bottom: 80px;  
+         }
+         .home-img:hover #girl{
+            left: 40%;
+         }
+         .sectionhead{
+            text-align: center;
+         }
+         #mainhead{
+            font-size: 30px;
+         }
+         #subhead{
+            font-size: 20px;
+            color: green;
+         }
+         .aboutbody{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+            gap: 50px;
+            align-items: center;
+         }
+         .img{
+         width: 30%;
+         }
+         .aboutcontent{
+            font-size: 2opx;
+            text-align: justify;
+          }
+          .informaton{
+            margin-top: 1.3rem;
+          }
+::-webkit-scrollbar{
+   width: 10px;
+   border border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+   background-color: azure;
+
+}
+::-webkit-scrollbar-thumb{
+   background-color: black;
+   border-radius: 10px;
+}
